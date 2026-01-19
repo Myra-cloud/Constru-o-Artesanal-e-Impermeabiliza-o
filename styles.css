@@ -1,0 +1,159 @@
+body {
+    background-color: #4b4b4bff;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(34, 33, 33);
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    margin: 5px 90px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: shadow;
+
+}   
+
+
+.home {
+    font-weight: bold;
+    margin: center;
+}
+
+.veja {
+    font-weight: bold;
+    margin: center;
+}
+
+.hero {
+    color: rgb(200, 200, 200);
+    padding: 50px;
+    text-align: center;
+}
+
+.services {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.service-item {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+.tiposS{
+    width: 700px;
+    height: 850px;
+    border: 2px solid rgb(34, 33, 33);
+    border-radius: 10px;
+    justify-self: center;
+    object-fit: cover;
+    display: flex;
+    
+}
+
+.antes{
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(34, 33, 33);
+    border-radius: 10px;
+    object-fit: cover;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+} 
+
+.durante{
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(34, 33, 33);
+    border-radius: 10px;
+    object-fit: cover;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.depois{
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(34, 33, 33);
+    border-radius: 10px;
+    object-fit: cover;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.Logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    object-fit: cover;
+    display: inline-block;
+    margin: 0px 15px;
+    vertical-align: top;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.feedback {
+    color:  rgb(200, 200, 200);
+    padding: 20px;
+    text-align: center;
+}
+
+.avaliacao-site{
+    color:  rgb(200, 200, 200);
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.titulos{
+    color: rgb(200, 200, 200);
+}
+
+.avaliacao{
+    color: rgb(255, 255, 255);
+    margin: 5px 90px;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: shadow;
+}
+
+.menu-button {
+    border: none;
+    background-color: rgb(34, 33, 33);
+    color: rgb(255, 255, 255) ;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flexbox;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
